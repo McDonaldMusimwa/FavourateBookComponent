@@ -37,7 +37,8 @@ main {
     background: var(--purple);
     display: grid;
     grid-template-columns: 1fr;
-    width: 95%;
+    width: 40%;
+    height: 40%;
     border-radius: 10px;
 }
 
@@ -83,6 +84,9 @@ li {
     body{
         overflow: hidden;
         width: 10rem;
+        display: flex;
+        
+        justify-content: center;
         
     }
 
@@ -91,12 +95,12 @@ li {
         width: 50vw;
         height: 4vh;
         padding-left: 2rem;
-        margin-left: 10rem;
+        margin-left: 14rem;
     }
 
     main {
         width: 17rem;
         height: 20rem;
-        margin-left: 0.6rem;
+        margin-left: 2.5rem;
     }
 }
